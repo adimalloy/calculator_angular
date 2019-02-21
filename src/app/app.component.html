@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    WELCONE TO EDUCODE DEV!
+  </h1>
+  
+  <h1>Calculator sederhana</h1>
+
+  <input type="number"  id="firstNumber"  placeholder="First Number" class="form-control" #first ><br><br>
+
+  <button type="submit" (click) = 'calculate1(first.value, second.value)'>+</button>
+  <button type="submit" (click) = 'calculate2(first.value, second.value)'>-</button>
+  <button type="submit" (click) = 'calculate3(first.value, second.value)'>*</button>
+  <button type="submit" (click) = 'calculate4(first.value, second.value)'>/</button>
+  <br><br>
+
+  <input type="number"  id="secondNumber"  placeholder="Second Number" class="form-control" #second>
+  
+  
+  <h4>HASILNYA ADALAH <BR> <BR> {{sum}}</h4>
+  
+
+
+
+<router-outlet></router-outlet>
